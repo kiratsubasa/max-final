@@ -11,6 +11,7 @@
             .maill ipta@my.nthu.edu.tw
             .say SAY HELLO ON:
             .sayy Instagram
+            .question 歡迎寫下您的問題！
             el-link(href=" https://www.instagram.com/ipta.lab/" target="_blank")
             head
              link(href="https://fonts.googleapis.com/css?family=Oswald:300", rel:'stylesheet', type:'text/css')
@@ -155,6 +156,19 @@ export default {
   line-height: 47px
   color: #B5ACB4
 
+.question
+  position: absolute
+  width: 364px
+  height: 94px
+  left: 1035px
+  top: 520px
+  font-family: GemunuLibre-Medium
+  font-style: normal
+  font-weight: 500
+  font-size: 30px
+  line-height: 47px
+  color: rgba(#000,0.4)
+
 .el-link
   position: absolute
   width: 170px
@@ -197,7 +211,7 @@ form
   margin: 0px auto
   background: rgba(#000,0.4)
   // -webkit-transform: scale(0.8)
-  // -webkit-transition: -webkit-transform 500ms ease-in-out
+  -webkit-transition: -webkit-transform 500ms ease-in-out
   
 
   &.active 
@@ -212,9 +226,9 @@ input
   background: rgba(#fff, 0.4)
   border: 1px solid rgba(#000, 0.8)
     
-  &:focus 
-    background: rgba(#fff, 0.8)
-    outline: none
+  // &:focus 
+  //   background: rgba(#fff, 0.8)
+  //   outline: none
   
 
 

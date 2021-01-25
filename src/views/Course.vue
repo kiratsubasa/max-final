@@ -6,7 +6,7 @@
           .d2h 學位：科技藝術學士學位 （Bachelor of Science and Art）
           .d3h 第二專長學士學位（若學生有另選第二專長課程）
           .d4h 藝術學院學士班108學年度入學必修科目、學分數暨畢業總學分表
-          //- img.courseImg(src="https://scontent.ftpe5-1.fna.fbcdn.net/v/t1.0-9/142094572_3527282550653611_5763948029344504671_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=bn8ynQgWnw8AX_qkdhk&_nc_ht=scontent.ftpe5-1.fna&oh=83e999f14a5a5f7a4a7b9295fd8e6a26&oe=6033E782")  
+          img.courseImg(src="https://scontent.ftpe5-1.fna.fbcdn.net/v/t1.0-9/142094572_3527282550653611_5763948029344504671_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=bn8ynQgWnw8AX_qkdhk&_nc_ht=scontent.ftpe5-1.fna&oh=83e999f14a5a5f7a4a7b9295fd8e6a26&oe=6033E782")
 </template>
 <script>
 import Header from '../components/Header.vue'
@@ -95,6 +95,8 @@ export default {
   position: absolute
   width: 1120px
   height: 546px
+  left: 96px
+  top: 358px
 
 
 </style>
